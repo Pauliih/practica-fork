@@ -1,0 +1,52 @@
+/*SELECTORES*/
+
+/*Selector de clases*/
+.square2{
+	background-color: yellow;
+}
+
+
+/* Selector universal
+
+* {
+  border: 1px solid black;
+}
+*/
+
+
+/* le sacamos la linea al enlace*/
+a{
+	color:white;
+	text-decoration: none;	
+}
+
+div{
+	  border: 1px solid black;
+}
+
+h1,h2{
+	color: white;
+	text-align: center;
+}
+
+/*Anidado*/
+ol li{
+	color:grey;
+}
+
+.square2 ol li:last-child{
+	color:purple;
+}
+
+img{
+	position: center
+}
+
+li:first-of-type + li{
+	color:black;
+}
+
+/*Selector id*/
+#titulo1{
+	color:turquoise;
+}
