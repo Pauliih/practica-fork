@@ -2,7 +2,7 @@
 
 /*Selector de clases*/
 .square2{
-	background-color: yellow;
+	background-color: orange;
 }
 
 
@@ -49,4 +49,34 @@ li:first-of-type + li{
 /*Selector id*/
 #titulo1{
 	color:turquoise;
+}
+
+.caja{
+	background-color: orange;
+	padding: 1em;
+	border: 1em dashed darkred;
+	/*display: none; elimina el elemento*/
+
+}
+
+
+.caja2{
+	background-color: darkred;
+	padding-top: 1em;
+	margin-top: 1em;
+	visibility: hidden;/*Solo oculta*/
+}
+
+/*Body tiene 8 px por defecto de margen*/
+body{
+	background-color: black;
+	/*margin: 0;*/
+}
+
+.caja3{
+	background-color: green;
+	text-align: center;
+	padding: 1em;
+	border: 1em dashed yellow;
+
 }
